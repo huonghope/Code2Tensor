@@ -21,7 +21,7 @@ git clone https://github.com/tree-sitter/tree-sitter-cpp
 
 ## Code Scripts
 
-After **deployment**, you can run the notebooks files. Code2Tensor\*.ipynb files are source codes and demos of different neural networks and sets of parameters. For standardization, I clean the output of the notebooks, the results of last run are store in the png files. For a visible version, you can refer to https://gist.github.com/LovelyBuggies/078139f8f3afe6d3b09c1120dd1c74e8 (the model with best performance).
+**After configurations**, you can run the notebooks files. Code2Tensor\*.ipynb files are source codes and demos of different neural networks and sets of parameters. For standardization, I clean the output of the notebooks, the results of last run are store in the png files. For a visible version, you can refer to https://gist.github.com/LovelyBuggies/078139f8f3afe6d3b09c1120dd1c74e8 (the model with best performance).
 
 ![results](./results.png)
 
