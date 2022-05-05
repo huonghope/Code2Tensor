@@ -2,3 +2,4 @@
 __pycache__/read_pickled_samples.cpython-39.pyc
 __pycache__/split_data.cpython-39.pyc
 vendor/.DS_Store
+.DS_Store
