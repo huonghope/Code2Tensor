@@ -1,14 +1,33 @@
 # Code2Tensor
-Tensor representation of code for vulnerability detection.
+**Tensor representation of code for vulnerability detection.**
+
+![framework](./framework.png)
+
+
+With the explosive growth of the amount of code in recent years, more and more vulnerabilities are weakening the overall security of computer systems. However, it is hard to detect the vulnerabilities in large projects, because of the complex project structures, interactive calls of multiple programming languages, and dependence on domain knowledge. An expressive code embedding can facilitate the machine learning model to understand abstract semantics. Code2Vec pioneers research in this field, but it only quantizes the codes into one-dimensional vectors, losing a lot of latent information. In this paper, we put forward a Code2Tensor framework to get a tensor representation of codes. By feeding the tensors of C++ codes to deep learning models for vulnerability detection, we show the huge potential of applying the code tensorization to other deep learning pipelines.
+
 
 ## All Project Assignments
 
 In the milestones folder.
 
-## Code Scripts
-
-Code2Tensor\*.ipynb files are scipts to run.
-
 ## Configurations
 
-Configurations are in the build 
+```shell
+mkdir vendor
+cd vendor
+git clone https://github.com/tree-sitter/tree-sitter-cpp
+```
+
+## Code Scripts
+
+After **deployment**, you can run the notebooks files. Code2Tensor\*.ipynb files are source codes and demos of different neural networks and sets of parameters. For standardization, I clean the output of the notebooks, the results of last run are store in the png files. For a visible version, you can refer to https://gist.github.com/LovelyBuggies/078139f8f3afe6d3b09c1120dd1c74e8 (the model with best performance).
+
+![results](./results.png)
+
+## Raw Data
+
+The raw data we used or tested are put into dataset folder. We use D2A dataset, which can be obtained from https://developer.ibm.com/exchanges/data/all/d2a/ - "get this data".
+
+
+
