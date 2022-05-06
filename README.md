@@ -1,5 +1,5 @@
 # Code2Tensor
-**Tensor representation of code for vulnerability detection.**
+**Tensor representation of code for vulnerability detection.** [[video link](https://www.youtube.com/watch?v=e9-BLD9dxts)]
 
 ![framework](./framework.png)
 
