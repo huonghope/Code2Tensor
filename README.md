@@ -29,5 +29,6 @@ git clone https://github.com/tree-sitter/tree-sitter-cpp
 
 The raw data we used or tested are put into dataset folder. We use D2A dataset, which can be obtained from https://developer.ibm.com/exchanges/data/all/d2a/ - "get this data".
 
+## Clarification
 
-
+**The proposal, revised proposal, progress report, final report are in the milestone folder, links to demo on [Youtube](https://www.youtube.com/watch?v=e9-BLD9dxts), [links to datasets](https://dax-cdn.cdn.appdomain.cloud/dax-d2a/1.1.0/d2a_leaderboard_data.tar.gz), no slides for demo (it's based on a [notebook](https://gist.github.com/LovelyBuggies/078139f8f3afe6d3b09c1120dd1c74e8)) and [my volunteer presentations](https://docs.google.com/presentation/d/1tcrfCDm6tggUVgHSKYYHXiIONOjN3x-Tlh86mzAdCxE/edit?usp=sharing) . It's different from my midterm project.**   
